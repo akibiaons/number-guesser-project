@@ -96,10 +96,14 @@ KEEP THE UTILITY CLASSES AT THE BOTTOM OF THE CSS STYLESHEET!!!!!!
     background-color: var(--clr-primary-200);
 }
 
-.bg-footer {
-    background-color: var(--clr-primary-400);
+.bg-computer-box {
+    background-color: var(--clr-primary-300);
 }
 
 .button {
     background-color: var(--clr-button-100);
+}
+
+.bg-footer {
+    background-color: var(--clr-primary-400);
 }
