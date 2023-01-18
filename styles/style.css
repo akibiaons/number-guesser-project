@@ -4,8 +4,9 @@
     --clr-primary-200: rgb(250, 241, 241); /*This will be the background color of the webpage*/
     --clr-primary-300: ; /*Color of computer box*/
 
-    --clr-secondary-100: ; /*This will be the color of */
-
+    --clr-secondary-100: rgb(128, 114, 114); /*This will be the color of the computer box*/
+    --clr-accent-100: rgb(24, 85, 228); /*This will be the color of the buttons to add or decrease a number*/
+    --clr-button-100: rgb(24,85,228); /*This is the color of the buttons*/
 }
 
 /* Box sizing rules */
