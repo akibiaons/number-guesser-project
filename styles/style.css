@@ -3,6 +3,7 @@
     --clr-primary-100: rgb(53, 53, 53); /*This is color for the text*/
     --clr-primary-200: rgb(250, 241, 241); /*This will be the background color of the webpage*/
     --clr-primary-300: ; /*Color of computer box*/
+    --clr-primary-400: ; /*This will be the footer color*/
 
     --clr-secondary-100: rgb(128, 114, 114); /*This will be the color of the computer box*/
     --clr-accent-100: rgb(24, 85, 228); /*This will be the color of the buttons to add or decrease a number*/
@@ -83,5 +84,19 @@ select {
     scroll-behavior: auto !important;
   }
 }
+/*
+Below will be the Utility classes
+================================================================================================
+KEEP THE UTILITY CLASSES AT THE BOTTOM OF THE CSS STYLESHEET!!!!!!
+*/
+.bg-main {
+    background-color: var(--clr-primary-200);
+}
 
-/*Below will be the Utility classes*/
+.bg-footer {
+    background-color: var(--clr-primary-400);
+}
+
+.button {
+    background-color: var(--clr-button-100);
+}
