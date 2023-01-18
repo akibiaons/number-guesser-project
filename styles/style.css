@@ -5,11 +5,10 @@
     --clr-primary-300: rgb(100, 100, 100); /*Color of computer box*/
     --clr-primary-400: rgb(100, 100, 100); /*This will be the footer color*/
 
-    --clr-secondary-100: rgb(128, 114, 114); /*This will be the color of the computer box*/
-    --clr-accent-100: rgb(24, 85, 228); /*This will be the color of the buttons to add or decrease a number*/
+    --clr-accent-100: rgb(128, 114, 114); /*This will be the color of the computer box*/
+    --clr-accent-200: rgb(24, 85, 228); /*This will be the color of the buttons to add or decrease a number*/
     --clr-button-100: rgb(24,85,228); /*This is the color of the buttons*/
 
-    --clr-secondary-100: ;/*Main body text which is black*/
     --clr-secondary-200: rgb(255, 255, 255);/*Secondary text which is to be white and used in buttons*/
 }
 
@@ -87,6 +86,7 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
 /*
 Below will be the Utility classes
 ================================================================================================
@@ -94,6 +94,14 @@ KEEP THE UTILITY CLASSES AT THE BOTTOM OF THE CSS STYLESHEET!!!!!!
 */
 .bg-main {
     background-color: var(--clr-primary-200);
+}
+
+.main-txt {
+    color: var(--clr-primary-100);
+}
+
+.secondary-txt {
+    color: var(--clr-secondary-200);
 }
 
 .bg-computer-box {
