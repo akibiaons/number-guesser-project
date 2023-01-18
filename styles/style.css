@@ -1,3 +1,13 @@
+/*Above will be some root parameters such as font-family, font-sizes, mobile repsonsiveness*/
+:root {
+    --clr-primary-100: rgb(53, 53, 53); /*This is color for the text*/
+    --clr-primary-200: rgb(250, 241, 241); /*This will be the background color of the webpage*/
+    --clr-primary-300: ; /*Color of computer box*/
+
+    --clr-secondary-100: ; /*This will be the color of */
+
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -72,3 +82,5 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/*Below will be the Utility classes*/
