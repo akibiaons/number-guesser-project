@@ -14,9 +14,18 @@
                 <h1>Number Guesser Game!</h1>
                 <h2>Round<span id="round-number"></span></h2>
                 <p>
-                    Target Number: <span id="target-number"></span>
+                    Target Number: <span id="target-number">?</span>
                 </p>
-            </div>        
+            </div> 
+            <div class="guessing-area">
+                <div class="guess computer-guess">
+                    <div class="guess-title">
+                        <p class="guess-label">Computer</p>
+                        <p class="score-label">Score:<span id="computer-score">0</span></p>
+                    </div>
+                </div>
+            </div>
+            <p id="computer-guess">?</p>       
         </section>
     </main>
     <script src="./src/script.js"></script>
