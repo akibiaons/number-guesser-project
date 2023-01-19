@@ -11,11 +11,13 @@
 
     --clr-secondary-200: rgb(255, 255, 255);/*Secondary text which is to be white and used in buttons*/
 
-    --ff-primary: ;
+    --ff-primary: font-family: 'Nunito Sans';
 
-    --fs-100: ;
-    --fs-200: ;
-    --fs-300: ;
+    --fs-100: 2rem; /*This is the game intro / title size*/
+    --fs-200: 1.125rem; /*This is the round number size*/
+    --fs-300: 1.875rem; /*Target number text*/
+    --fs-400: 1.125rem;/*This is for the player name text*/
+    --fs-500: 0.875rem; /*This is for the score count memory*/
 }
 
 /* Box sizing rules */
@@ -36,7 +38,7 @@ figure,
 blockquote,
 dl,
 dd {
-  margin: 0;
+    margin: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
