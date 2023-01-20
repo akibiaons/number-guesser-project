@@ -119,6 +119,11 @@ select {
   text-align: center;
 }
 
+.human-guess {
+  display: flex;
+  flex-direction: column;
+}
+
 .instructions {
   display: flex;
   justify-content: space-around;
