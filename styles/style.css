@@ -102,6 +102,7 @@ select {
 }
 
 .guessing-area {
+  display: flex;
   text-align: center;
 }
 
