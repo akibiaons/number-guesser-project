@@ -107,8 +107,20 @@ select {
 
 .instructions {
   display: flex;
-  justify-content: space-around;
   text-align: center;
+}
+
+.guess {
+  align-items: center;
+}
+
+.computer-guess {
+  border: .10rem solid rgb(0, 0, 0);
+}
+
+.human-guess {
+  display: flex;
+  border: .10rem solid rgb(0, 0, 0);
 }
 
 @media (min-width: 48em) {
