@@ -163,13 +163,12 @@ KEEP THE UTILITY CLASSES AT THE BOTTOM OF THE CSS STYLESHEET!!!!!!
     font-family: var(--ff-primary);
 }
 
-.secondary-txt {
-    color: var(--clr-secondary-200);
-    font-size: ;
-    font-weight: ;
-    font-family: ;
-    padding-top: ;
-    padding-bottom: ;
+.guess-label {
+    color: var(--clr-primary-100);
+    font-size: var(--fs-400);
+    font-weight: bold;
+    font-family: var(--ff-primary);
+    padding: 1rem;
 }
 
 .bg-computer-box {
