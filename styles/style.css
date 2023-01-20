@@ -171,6 +171,10 @@ KEEP THE UTILITY CLASSES AT THE BOTTOM OF THE CSS STYLESHEET!!!!!!
     padding: 1rem;
 }
 
+.score-label {
+
+}
+
 .bg-computer-box {
     background-color: var(--clr-primary-300);
 }
@@ -182,3 +186,12 @@ KEEP THE UTILITY CLASSES AT THE BOTTOM OF THE CSS STYLESHEET!!!!!!
 .bg-footer {
     background-color: var(--clr-primary-400);
 }
+
+/*
+
+I made a mistake in my utility classes because I didn't remember which var() and roots were associated with which font or color 
+or font weight and font family...
+
+Tips for the next time,
+
+*/
