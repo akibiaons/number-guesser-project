@@ -9,3 +9,8 @@ let currentRoundNumber = 1;
 const generateTarget = () => {
   return Math.floor(Math.random()*10);
 };
+// Tested and works!! ==== console.log(generateTarget());
+/* 
+In the function titled generateTarget, we use Math.floor for a random number between 1 - 0 to be generated, then multiply thr number by 10 and math random..
+This random number generator is called with a console.log statement to call upon a random number
+*/
