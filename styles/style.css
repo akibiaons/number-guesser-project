@@ -1,3 +1,11 @@
+* {
+  font-family: 'Nunito Sans';
+  box-sizing: border-box;
+}
+/** selects all the */
+
+
+
 /*
 It took most of Jan 18th and 19th 2023 to complete the CSS seen below roughly one and a half days
 Since I forgot, I will add the original projects given code above and add comments on what I initially did wrong...
@@ -5,39 +13,43 @@ Since I forgot, I will add the original projects given code above and add commen
 
 /*
 For starters, I added some :root parameters, so that I could have presets for the font-family, color, font-weight, and so fourth...
-
+I messed up by convuluting the utility classes which are at the bottom...I didn't add any comments at all so I forgot which utility classes
+to assing the HTML...
 */
 
-/*Above will be some root parameters such as font-family, font-sizes, mobile repsonsiveness*/
+/*Below this comment are some root parameters such as font-family, font-sizes, mobile repsonsiveness*/
+/*
 :root {
     --clr-primary-100: rgb(53, 53, 53); /*This is color for the text*/
-    --clr-primary-200: rgb(250, 241, 241); /*This will be the background color of the webpage*/
-    --clr-primary-300: rgb(100, 100, 100); /*Color of computer box*/
-    --clr-primary-400: rgb(100, 100, 100); /*This will be the footer color*/
-
+    /*--clr-primary-200: rgb(250, 241, 241); /*This will be the background color of the webpage*/
+    /*--clr-primary-300: rgb(100, 100, 100); /*Color of computer box*/
+    /*--clr-primary-400: rgb(100, 100, 100); /*This will be the footer color*/
+    /*
     --clr-accent-100: rgb(128, 114, 114); /*This will be the color of the computer box*/
-    --clr-accent-200: rgb(24, 85, 228); /*This will be the color of the buttons to add or decrease a number*/
-    --clr-button-100: rgb(24,85,228); /*This is the color of the buttons*/
+    /*--clr-accent-200: rgb(24, 85, 228); /*This will be the color of the buttons to add or decrease a number*/
+    /*--clr-button-100: rgb(24,85,228); /*This is the color of the buttons*/
 
-    --clr-secondary-200: rgb(255, 255, 255);/*Secondary text which is to be white and used in buttons*/
+    /*--clr-secondary-200: rgb(255, 255, 255);/*Secondary text which is to be white and used in buttons*/
 
-    --ff-primary: 'Nunito Sans';
+    /*--ff-primary: 'Nunito Sans';
 
     --fs-100: 1.3rem; /*This is the game intro / title size*/
-    --fs-200: 1.125rem; /*This is the round number size*/
-    --fs-300: 1.875rem; /*Target number text*/
-    --fs-400: 1.125rem;/*This is for the player name text*/
-    --fs-500: 0.875rem; /*This is for the score count memory*/
-}
-
+    /*--fs-200: 1.125rem; /*This is the round number size*/
+    /*--fs-300: 1.875rem; /*Target number text*/
+    /*--fs-400: 1.125rem;/*This is for the player name text*/
+    /*--fs-500: 0.875rem; /*This is for the score count memory*/
+/*}
+*/
 /* Box sizing rules */
+/*
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
+*/
 /* Remove default margin */
+/*
 body,
 h1,
 h2,
@@ -50,46 +62,53 @@ dl,
 dd {
     margin: 0;
 }
-
+*/
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+/*
 ul[role='list'],
 ol[role='list'] {
   list-style: none;
 }
-
+*/
 /* Set core root defaults */
+/*
 html:focus-within {
   scroll-behavior: smooth;
 }
-
+*/
 /* Set core body defaults */
+/*
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
-
+*/
 /* A elements that don't have a class get default styles */
+/*
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
-
+*/
 /* Make images easier to work with */
+/*
 img,
 picture {
   max-width: 100%;
   display: block;
 }
-
+*/
 /* Inherit fonts for inputs and buttons */
+/*
 input,
 button,
 textarea,
 select {
   font: inherit;
 }
-
+*/
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+/*
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
    scroll-behavior: auto;
@@ -104,9 +123,9 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
+*/
 /*Below will be the CSS for aligning all the content...The content seems to be aligned to the middle with the footer containing a full spread maybe flexbox space around...*/
-
+/*
 .container {
   text-align: center;
 }
@@ -164,11 +183,13 @@ select {
 @media (min-width: 48em) {
 
 }
+*/
 /*
 Below will be the Utility classes
 ================================================================================================
 KEEP THE UTILITY CLASSES AT THE BOTTOM OF THE CSS STYLESHEET!!!!!!
 */
+/*
 .main-txt {
     color: var(--clr-primary-100);
     font-size: var(--fs-100);
@@ -202,7 +223,7 @@ KEEP THE UTILITY CLASSES AT THE BOTTOM OF THE CSS STYLESHEET!!!!!!
 .bg-footer {
     background-color: var(--clr-primary-400);
 }
-
+*/
 /*
 
 I made a mistake in my utility classes because I didn't remember which var() and roots were associated with which font or color 
