@@ -132,6 +132,35 @@ as start from the beginning with a bottom margin of 60px...*/
   cursor: pointer;
 }
 
+.number-controls button[disabled] {
+  color: #dfdfdf;
+  cursor: default;
+}
+
+.left {
+  border-top-left-radius: 22.5px;
+  border-bottom-left-radius: 22.5px;
+}
+
+.right {
+  border-top-right-radius: 22.5px;
+  border-bottom-right-radius: 22.5px;
+  border-left-width: 0px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: #4c7ef3;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
 /*
 It took most of Jan 18th and 19th 2023 to complete the CSS seen below roughly one and a half days
 Since I forgot, I will add the original projects given code above and add comments on what I initially did wrong...
