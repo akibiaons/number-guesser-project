@@ -1,3 +1,13 @@
+/*
+It took most of Jan 18th and 19th 2023 to complete the CSS seen below roughly one and a half days
+Since I forgot, I will add the original projects given code above and add comments on what I initially did wrong...
+*/
+
+/*
+For starters, I added some :root parameters, so that I could have presets for the font-family, color, font-weight, and so fourth...
+
+*/
+
 /*Above will be some root parameters such as font-family, font-sizes, mobile repsonsiveness*/
 :root {
     --clr-primary-100: rgb(53, 53, 53); /*This is color for the text*/
