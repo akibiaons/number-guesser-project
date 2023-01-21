@@ -62,8 +62,16 @@ there is also a padding of 19px applied...*/
   align-items: flex-start;
   margin-bottom: 60px;
 }
-/**/
+/*This class selector takes the elements under guessing-area and makes them space around as well
+as start from the beginning with a bottom margin of 60px...*/
 
+.guess-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
 /*
 It took most of Jan 18th and 19th 2023 to complete the CSS seen below roughly one and a half days
 Since I forgot, I will add the original projects given code above and add comments on what I initially did wrong...
