@@ -159,7 +159,56 @@ as start from the beginning with a bottom margin of 60px...*/
   cursor: pointer;
 }
 
+#guess {
+  padding: 20px;
+  width: 169px;
+  height: 59px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+}
 
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#next-round {
+  width: 179px;
+  height: 64px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+.button[disabled] {
+  background-color: #d2d2d2;
+  color: #a0a0a0;
+  cursor: default;
+}
+
+.instructions {
+  background-color: #ececec;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.instruction {
+  width: 180px;
+  padding: 2px;
+  text-align: center;
+}
+
+.instructions h3 {
+  font-size: 14px;
+}
+
+.winning-text, .winning-text[disabled] {
+  color: #ec3636;
+  font-weight: 700;
+}
 
 /*
 It took most of Jan 18th and 19th 2023 to complete the CSS seen below roughly one and a half days
