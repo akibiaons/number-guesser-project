@@ -72,6 +72,66 @@ as start from the beginning with a bottom margin of 60px...*/
   justify-content: flex-start;
   margin-bottom: 20px;
 }
+/*Here we take the elements under the guess-title and do more column positioning and horizontal adjustments to the content..*/
+
+.guess-label {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.score-label {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.target-guess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.computer-guess {
+  background-color: #ececec;
+}
+
+#computer-guess {
+  font-size: 50px;
+  font-weight: 700;
+  color: #a5a5a5;
+}
+
+.human-guess {
+  border: 1px solid #979797;
+}
+
+.guess input {
+  height: 90px;
+  width: 90px;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 7px;
+}
+
+.number-controls {
+  font-size: 0;
+  margin-bottom: 23px;
+}
+
+.number-control {
+  border: solid 1px #4c7ef3;
+  display: inline-block;
+  width: 45px;
+  height: 35px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #4c7ef3;
+  cursor: pointer;
+}
+
 /*
 It took most of Jan 18th and 19th 2023 to complete the CSS seen below roughly one and a half days
 Since I forgot, I will add the original projects given code above and add comments on what I initially did wrong...
