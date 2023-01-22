@@ -21,8 +21,15 @@ win (computer or human) based off of the absolute value of their response to the
 the result of the round, win or lose based on the humans side.
 */
 const compareGuesses = (human, computer, target) => {
-    console.log(Math.abs(target - human));
-    console.log(Math.abs(target - computer));
+    Math.abs(target - human);
+    Math.abs(target - computer);
+
+    if (Math.abs(target - human) < Math.abs(target - computer)) {
+        return true;
+    }
+    else {
+        return false;
+    }
 };
 
-compareGuesses(6, 1, generateTarget());
+console.log(compareGuesses(1, 7, 8));
