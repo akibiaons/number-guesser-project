@@ -7,7 +7,7 @@ let currentRoundNumber = 1;
 //The first step for the number guesser game is to create a number generator to generate a random number between 1 - 9. This number will be the target number that 
 //-the computer and player must guess closest to in order to win.
 const generateTarget = () => {
-  return Math.floor(Math.random()*10);
+  return Math.floor(Math.random()* 10);
 };
 // Tested and works!! ==== console.log(generateTarget());
 /* 
@@ -31,7 +31,7 @@ const compareGuesses = (human, computer, target) => {
         return false;
     }
 };
-console.log(compareGuesses(1, 9, generateTarget()));
+//console.log(compareGuesses(1, 9, generateTarget()));
 /*
 In the code above we added a compareGuesses function with three paramaters...
 The paramaters are the human, computer, and target numbers...We use Math.abs to 
