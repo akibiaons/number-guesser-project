@@ -9,7 +9,6 @@ let currentRoundNumber = 1;
 const generateTarget = () => {
   return Math.floor(Math.random()* 10);
 };
-console.log(generateTarget());
 /* 
 In the function titled generateTarget, we use Math.floor for a random number between 1 - 0 to be generated, then multiply thr number by 10 and math random..
 This random number generator is called with a console.log statement to call upon a random number
@@ -22,19 +21,12 @@ the result of the round, win or lose based on the humans side.
 */
 //========================================================================================
 const compareGuesses = (human, computer, target) => {
-    Math.abs(target - human);
-    Math.abs(target - computer);
-
-    if (Math.abs(target - human) < Math.abs(target - computer)) {
-        return true;
-    }
-    else {
-        return false;
-    }
+    let humanGuess = Math.abs(target - human);
+    let computerGuess = Math.abs(target - computer);
+    return humanGuess < computerGuess;
 };
-console.log(compareGuesses(2, 9, generateTarget()));
 /* Below is my original shot at the compareGuesses step...
-Math.abs(target - human);
+    Math.abs(target - human);
     Math.abs(target - computer);
 
     if (Math.abs(target - human) < Math.abs(target - computer)) {
