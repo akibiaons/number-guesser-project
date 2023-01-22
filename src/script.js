@@ -20,6 +20,7 @@ Below for step 2 of the JavaScript for the guessing game, we will now add a func
 win (computer or human) based off of the absolute value of their response to the target number...the function also must return 
 the result of the round, win or lose based on the humans side.
 */
+/*========================================================================================
 const compareGuesses = (human, computer, target) => {
     Math.abs(target - human);
     Math.abs(target - computer);
@@ -32,7 +33,7 @@ const compareGuesses = (human, computer, target) => {
     }
 };
 console.log(compareGuesses(2, 9, generateTarget()));
-/*
+/* ==================================================================================================================
 In the code above we added a compareGuesses function with three paramaters...
 The paramaters are the human, computer, and target numbers...We use Math.abs to 
 take the difference between target and the human / computer guess then determine the 
@@ -44,7 +45,4 @@ the generateTarget function number result.....
 Below I will be adding an updateScore function with a single parameter, which is a string
 representing the winner. The score will be increased by 1 depending on the winner passed
 into "update score" the string will be either "human" or "computer"...
-*/
-const updateScore = () => {
-
-};
+=====================================================================================================*/
