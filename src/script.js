@@ -9,7 +9,7 @@ let currentRoundNumber = 1;
 const generateTarget = () => {
   return Math.floor(Math.random()* 10);
 };
-// Tested and works!! ==== console.log(generateTarget());
+console.log(generateTarget());
 /* 
 In the function titled generateTarget, we use Math.floor for a random number between 1 - 0 to be generated, then multiply thr number by 10 and math random..
 This random number generator is called with a console.log statement to call upon a random number
@@ -31,7 +31,7 @@ const compareGuesses = (human, computer, target) => {
         return false;
     }
 };
-console.log(compareGuesses(1, 9, generateTarget()));
+console.log(compareGuesses(2, 9, generateTarget()));
 /*
 In the code above we added a compareGuesses function with three paramaters...
 The paramaters are the human, computer, and target numbers...We use Math.abs to 
@@ -45,6 +45,6 @@ Below I will be adding an updateScore function with a single parameter, which is
 representing the winner. The score will be increased by 1 depending on the winner passed
 into "update score" the string will be either "human" or "computer"...
 */
-const updateScore = (winner) => {
+const updateScore = () => {
 
 };
