@@ -31,5 +31,12 @@ const compareGuesses = (human, computer, target) => {
         return false;
     }
 };
-
-console.log(compareGuesses(1, 7, 8));
+// console.log(compareGuesses(1, 7, 8));
+/*
+In the code above we added a compareGuesses function with three paramaters...
+The paramaters are the human, computer, and target numbers...We use Math.abs to 
+take the difference between target and the human / computer guess then determine the 
+winner by which one has the lowest absolute value, which would be the number closest to
+the generateTarget function number result.....
+*/
+//================================================================================================================================================================================================
