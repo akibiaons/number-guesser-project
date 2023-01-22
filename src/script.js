@@ -31,7 +31,7 @@ const compareGuesses = (human, computer, target) => {
         return false;
     }
 };
-//console.log(compareGuesses(1, 9, generateTarget()));
+console.log(compareGuesses(1, 9, generateTarget()));
 /*
 In the code above we added a compareGuesses function with three paramaters...
 The paramaters are the human, computer, and target numbers...We use Math.abs to 
@@ -45,6 +45,6 @@ Below I will be adding an updateScore function with a single parameter, which is
 representing the winner. The score will be increased by 1 depending on the winner passed
 into "update score" the string will be either "human" or "computer"...
 */
-const updateScore = () => {
+const updateScore = (winner) => {
 
 };
