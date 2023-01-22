@@ -40,3 +40,11 @@ winner by which one has the lowest absolute value, which would be the number clo
 the generateTarget function number result.....
 */
 //================================================================================================================================================================================================
+/*
+Below I will be adding an updateScore function with a single parameter, which is a string
+representing the winner. The score will be increased by 1 depending on the winner passed
+into "update score" the string will be either "human" or "computer"...
+*/
+const updateScore = () => {
+
+};
