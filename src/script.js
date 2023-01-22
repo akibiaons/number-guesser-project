@@ -31,7 +31,7 @@ const compareGuesses = (human, computer, target) => {
         return false;
     }
 };
-// console.log(compareGuesses(1, 7, 8));
+console.log(compareGuesses(1, 9, generateTarget()));
 /*
 In the code above we added a compareGuesses function with three paramaters...
 The paramaters are the human, computer, and target numbers...We use Math.abs to 
