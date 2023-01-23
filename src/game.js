@@ -1,3 +1,4 @@
+//I have no clue what some of this does...
 let target;
 
 const humanGuessInput = document.getElementById('human-guess');
